@@ -5,47 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-    
-    <style>
-body {
-  font-family: "Lato", sans-serif;
-}
+    {% include head-custom.html %} 
 
-.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 250px;
-  left: 10px;
-  background: #1b1b1b;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}
-
-.main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
 
 {% seo %}
   </head>
@@ -60,7 +21,7 @@ body {
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
-          <a href="https://kode2go.github.io/python2go/software_streams.html" class="btn">Software Development Streams</a>
+          <a href="{{ relative_url }}" class="btn">Software Development Streams</a>
           <a href="https://kode2go.github.io/python2go/python_lesson_1_intro.html" class="btn">Introduction To Python</a>
           <a href="https://kode2go.github.io/python2go/another-page.html" class="btn">Python Data Science</a>
           <a href="https://kode2go.github.io/python2go/another-page.html" class="btn">Python Web Development</a>
