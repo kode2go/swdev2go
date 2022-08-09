@@ -19,7 +19,7 @@ To just get started not knowing where to begin do the Fundamental Introduction T
 
 Fundamental Introduction To Python:
 
-https://github.com/kode2go/python/wiki/1.-Introduction
+[Fundamentals Of Python](https://kode2go.github.io/python2go/python_lesson_1_intro.html)
 
 Extra:
 
@@ -31,7 +31,7 @@ https://github.com/kode2go/python-classes/wiki
 
 Fundamental Introduction To Python:
 
-https://github.com/kode2go/python/wiki/1.-Introduction
+[Fundamentals Of Python](https://kode2go.github.io/python2go/python_lesson_1_intro.html)
 
 Fundamental Introduction To JavaScript:
 
@@ -55,7 +55,7 @@ https://github.com/kode2go/sol2go
 
 Fundamental Introduction To Python:
 
-https://github.com/kode2go/python/wiki/1.-Introduction
+[Fundamentals Of Python](https://kode2go.github.io/python2go/python_lesson_1_intro.html)
 
 Fundamental Introduction To Django
 
